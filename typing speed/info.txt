@@ -1,0 +1,26 @@
+Name: Son Trinh Nam
+
+
+Descrption:This project that i design is very simple, it's engaging typing speed tester designed to imporve typing accuracy and speed. The project has the game challenges 
+users to type a randomly generated quote as quickly and accurately as possible. The timer starts as soon as the user begins typing, and their progress is tracked in real-time
+with the time cal-down from 60 to 0. The program checks each typed character against the quote, providing feedback by changing the color of the text: green for correct and red 
+incorrect which will help the users know where go wrong or not. 
+The key feautres of this project include random quote generation from a reliable API, a dynamically updating timer and a feedbck on typing accuracy. If the users types the entire
+quote correctly before the timer runs out, they will be forward to the next random quote, if the timer runs out, they will see their final score, reflecting the total time it took
+to type quote. The game is desined to be simple and user-frinedly, providing an enjoyable challenge for users of all skill levels. 
+
+
+How to use the programme: it is very easy to use the programe ! 
+1. When you start the programe, a random quote will be display at the top of the screen and a text area below it will be activated for you to begin typing. 
+2. Just simply type the quote out exactly how it is display as quick as possible, as  you type, the program will check each character against the displayed quote to see if you are 
+typing it correctly or not 
+3. You only need to use your keyboard to be able to use this programe. The program detects when you type a character and it will highlight it in green if it is correct and red if 
+it is incorrect. 
+4. Timers will starts when you begin typing and runs from 60 to 0 until you either complete the quote and move to next score or the timer runs out. Your goal is to type the quote 
+as quickly and accurately as possible 
+5. If you complete the quote without the time limit, your score will be showm, indicating how fast you typed the quotes. 
+6. After each round, a new quote will load and you can try again. ^^ 
+
+Thank you for testing my project ! Good day ! 
+Warm regards, 
+Son Trinh 

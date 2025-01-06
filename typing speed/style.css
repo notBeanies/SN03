@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E1E1E; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Ensure the content is aligned in a column */
+  }
+  
+  .container {
+    background-color: #2E2E2E; /* Slightly lighter background for the container */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    color: #F0DB4F; /* Bright color for the timer */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); /* Centers the timer horizontally */
+  }
+  
+  .quote-display {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    word-wrap: break-word;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+  }
+  
+  .quote-input {
+    background-color: #383838; 
+    border: 2px solid #A1922E; 
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin-top: 1rem;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    color: #fff; /* White text in the input area */
+    transition: border-color 0.3s ease;
+  }
+  
+  .quote-input:focus {
+    border-color: #F0DB4F; /* Highlight the border when focused */
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  #score {
+    font-size: 1.8rem;
+    color: #F0DB4F;
+    font-weight: bold;
+    position: fixed; /* Fix position at the bottom */
+    bottom: 20px; 
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Centering it */
+  }
+  
